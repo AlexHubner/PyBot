@@ -1,0 +1,55 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": ["oi", "olá", "ola", "bom dia", "boa tarde", "boa noite", "e aí", "opa", "hey"],
+      "responses": ["Olá! Como posso ajudar?", "Oi! Tudo bem com você?", "Olá, seja bem-vindo!"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["tchau", "até logo", "adeus", "até mais", "falou", "preciso ir"],
+      "responses": ["Até logo!", "Tchau, volte sempre!", "Foi um prazer conversar com você."]
+    },
+    {
+      "tag": "agradecimento",
+      "patterns": ["obrigado", "obrigada", "valeu", "muito obrigado", "agradeço"],
+      "responses": ["De nada!", "Disponha!", "Fico feliz em ajudar."]
+    },
+    {
+      "tag": "nome",
+      "patterns": ["qual seu nome", "como você se chama", "quem é você", "seu nome"],
+      "responses": ["Eu sou o PyBot, um chatbot de demonstração.", "Me chamo PyBot!"]
+    },
+    {
+      "tag": "estado",
+      "patterns": ["tudo bem", "como você está", "como vai", "beleza", "tudo certo"],
+      "responses": ["Estou ótimo, obrigado por perguntar!", "Tudo certo por aqui. E com você?"]
+    },
+    {
+      "tag": "ia",
+      "patterns": ["o que é inteligência artificial", "o que é ia", "como você funciona", "você é uma ia", "machine learning"],
+      "responses": [
+        "Sou um modelo simples: uso TF-IDF para vetorizar o texto e Regressão Logística (scikit-learn) para classificar sua intenção.",
+        "Inteligência Artificial é a área que cria sistemas capazes de realizar tarefas que exigem 'inteligência', como entender linguagem."
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": ["o que é python", "fale sobre python", "python é bom", "linguagem python"],
+      "responses": ["Python é uma linguagem de programação versátil, muito usada em IA e ciência de dados."]
+    },
+    {
+      "tag": "piada",
+      "patterns": ["conte uma piada", "me faça rir", "piada", "algo engraçado"],
+      "responses": [
+        "Por que o programador usa óculos? Porque ele não consegue C#!",
+        "Existem 10 tipos de pessoas: as que entendem binário e as que não entendem."
+      ]
+    },
+    {
+      "tag": "ajuda",
+      "patterns": ["ajuda", "o que você sabe fazer", "o que você faz", "me ajude", "comandos"],
+      "responses": ["Posso conversar, contar piadas, falar sobre Python e IA. Experimente!"]
+    }
+  ]
+}
